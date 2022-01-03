@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8"></meta>
 </head>
-<h1>Oh no! Page can't found </h1>
+<body>
+<h1 class="notf">Oh no! Page can't found </h1>
 <div class="container">
   <h1 class="first-four">4</h1>
   <div class="cog-wheel1">
@@ -33,6 +34,7 @@
   </div>
   <h1 class="second-four">4</h1>
 </div>
+</body>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"rel="stylesheet");
 
@@ -43,10 +45,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+h1 {
+  text-align: center;
+  position: absolute;
+  bottom: 15vmin;
+  padding: 3vmin 12vmin 3vmin 3vmin;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
 body {
   overflow: hidden;
-  background-color: #f4f6ff;
+  background-color: lightblue;
 }
 
 .container {
@@ -171,14 +180,6 @@ h1 {
   font-size: 40vmin;
 }
 
-.wrong-para {
-  font-family: "Montserrat", sans-serif;
-  position: absolute;
-  bottom: 15vmin;
-  padding: 3vmin 12vmin 3vmin 3vmin;
-  font-weight: 600;
-  color: #092532;
-}
 
 </style>
 <script>
