@@ -11,8 +11,10 @@
         var Const = {} 
         Const.Pass = "manhopro"
         var answer = prompt("Please Enter password")
-        if(answer != Const.Pass){
-            window.location.href("404.html")
-        }
+        if(answer === Const.Pass){
+            alert("Correct")
+        } else {
+            location.replace("https://manho30.github.io/404.html")
+        } 
     </script>
 </html>
