@@ -119,6 +119,19 @@ html, body {
   }
 }
 
+body {
+  color: #535353;
+  padding-top: 3%;
+}
+
+h1 {
+  line-height: inherit;
+}
+
+h1.mobile {
+  display: none;
+}
+
 @media (max-height: 320px) and (orientation: landscape) {
   .icon-offline {
     margin-bottom: 0;
