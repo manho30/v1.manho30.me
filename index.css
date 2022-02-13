@@ -18,6 +18,10 @@ a {
 .icons {
         text-align: center;
 } 
+.icons i {
+        padding: 14px 16px;
+	text-decoration: none;
+} 
 .copy_right {
         color: #808080;
         text-align: center;
