@@ -15,10 +15,13 @@ a {
 	overflow: hidden;
 	background-color: #333;
 }
+.icons a {
+        text-align: center;
+} 
 .copy_right {
         color: #808080;
         text-align: center;
-        font-size: 10px
+        font-size: 14px
 } 
 .topnav a {
 	float: left;
