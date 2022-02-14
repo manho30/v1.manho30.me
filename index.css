@@ -11,7 +11,7 @@ a {
 	font-family: 'Open Sans', sans-serif;
 }
 
-content.p {
+p.dui_ni_shuo, p.lion {
         border: 2px solid black;
         border-radius: 8px;
         padding: 5px;
