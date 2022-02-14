@@ -20,6 +20,7 @@ a.hyperlink {
         margin-top: 80px;
         font-family: 'Open Sans', sans-serif;
         text-decoration: none;
+        
 }  
 
 p.dui_ni_shuo, p.lion {
@@ -27,6 +28,7 @@ p.dui_ni_shuo, p.lion {
         border-radius: 8px;
         padding: 5px;
         text-decoration: none;
+        color: black;
 }
 
 
