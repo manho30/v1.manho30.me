@@ -11,17 +11,29 @@ a {
 	font-family: 'Open Sans', sans-serif;
 }
 
+p.dui_ni_shuo {
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+
+/** navigation in top **/
 .topnav {
 	overflow: hidden;
 	background-color: #333;
-}
+} 
+
+/** Social media icon **/
 .icons {
         text-align: center;
 } 
+/** make some space between each icon **/
 .icons i {
         padding: 12px 14px;
 	text-decoration: none;
 } 
+
 .copy_right {
         color: #808080;
         text-align: center;
