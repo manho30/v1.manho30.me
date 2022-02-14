@@ -7,15 +7,15 @@ h3,
 h4, 
 h5, 
 h6, 
+a {
+	font-family: 'Open Sans', sans-serif;
+}
 
 .content {
         text-align: center;
         margin-top: 40px;
         font-family: 'Open Sans', sans-serif;
-} 
-a {
-	font-family: 'Open Sans', sans-serif;
-}
+}  
 
 p.dui_ni_shuo, p.lion {
         border: 2px solid black;
