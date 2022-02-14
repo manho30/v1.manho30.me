@@ -38,6 +38,7 @@ p.dui_ni_shuo, p.lion {
 
 /** Social media icon **/
 .icons {
+        margin-up: 100px;
         text-align: center;
 } 
 /** make some space between each icon **/
