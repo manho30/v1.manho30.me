@@ -12,16 +12,21 @@ a {
         text-decoration: none;
 }
 
+a.hyperlink {
+        text-decoration: none;
+} 
 .content {
         text-align: center;
-        margin-top: 100px;
+        margin-top: 80px;
         font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
 }  
 
 p.dui_ni_shuo, p.lion {
         border: 2px solid black;
         border-radius: 8px;
         padding: 5px;
+        text-decoration: none;
 }
 
 
@@ -33,7 +38,6 @@ p.dui_ni_shuo, p.lion {
 
 /** Social media icon **/
 .icons {
-        margin-up: 100px;
         text-align: center;
 } 
 /** make some space between each icon **/
