@@ -9,26 +9,19 @@ h5,
 h6, 
 a {
 	font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
 }
-
-p.see_here {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 24px;
-        text-align: left
-} 
 
 .content {
         text-align: center;
         margin-top: 100px;
         font-family: 'Open Sans', sans-serif;
-        text-decoration: none;
 }  
 
 p.dui_ni_shuo, p.lion {
         border: 2px solid black;
         border-radius: 8px;
         padding: 5px;
-        text-decoration: none;
 }
 
 
