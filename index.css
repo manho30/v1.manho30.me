@@ -25,10 +25,12 @@ a.hyperlink {
 
 .about {
         margin-top: 80px;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
 } 
 
 p.about {
-        font-family: 'Epilogue', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         text-decoration: none;
 } 
 
@@ -55,6 +57,11 @@ p.dui_ni_shuo, p.lion {
 .icons i {
         padding: 12px 14px;
 	text-decoration: none;
+} 
+
+p.copy_right {
+        color: #808080;
+        text-align: center;
 } 
 
 .copy_right {
