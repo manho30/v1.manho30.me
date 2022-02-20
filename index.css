@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Inter:wght@500&display=swap');
 
 h1, 
 h2,
@@ -22,6 +22,15 @@ a.hyperlink {
         text-decoration: none;
         
 }  
+
+.about {
+        margin-top: 80px;
+} 
+
+p.about {
+        font-family: 'Epilogue', sans-serif;
+        text-decoration: none;
+} 
 
 p.dui_ni_shuo, p.lion {
         border: 2px solid black;
