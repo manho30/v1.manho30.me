@@ -30,7 +30,7 @@ a.hyperlink {
         height: auto;
 }
 
-p.vax_text, h3.vqx_text {
+vax_text {
         margin: auto;
         text-align: left;
         color: #808080;
