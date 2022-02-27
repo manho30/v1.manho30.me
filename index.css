@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
 
 h1, 
 h2,
@@ -22,6 +22,9 @@ a.hyperlink {
 }  
 
 .vax_pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         max-width:80%;
         max-height:80%;
         height: auto;
