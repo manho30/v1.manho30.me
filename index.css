@@ -30,6 +30,11 @@ a.hyperlink {
         height: auto;
 }
 
+p.vax_bot {
+        margin-right: auto;
+        color: #808080;
+} 
+
 .about {
         margin-top: 60px;
         font-family: 'Open Sans', sans-serif;
