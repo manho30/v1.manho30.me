@@ -32,7 +32,10 @@ a.hyperlink {
 
 .vax_text {
         margin: auto;
-        text-align: left;
+        width: 60%;
+        border: 2px solid grey;
+        border-radius: 8px;
+        padding: 10px;
         color: #808080;
 } 
 
