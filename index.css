@@ -21,6 +21,10 @@ a.hyperlink {
         text-decoration: none;
 }  
 
+img.vax_bot {
+        max-width: 100%;
+}
+
 .about {
         margin-top: 60px;
         font-family: 'Open Sans', sans-serif;
