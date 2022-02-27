@@ -37,6 +37,11 @@ a.hyperlink {
         color: #808080;
 } 
 
+.proj {
+        text-align: center;
+        color: #808080;
+} 
+
 .about {
         margin-top: 60px;
         font-family: 'Open Sans', sans-serif;
