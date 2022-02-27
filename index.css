@@ -31,10 +31,9 @@ a.hyperlink {
 }
 
 .vax_p {
-        display: block;
         margin-left: auto;
         margin-right: auto;
-        color: #808080;
+        text-align: left;
 } 
 
 .about {
