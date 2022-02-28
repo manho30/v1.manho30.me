@@ -1,8 +1,8 @@
 Make sure you have logged in into quizizz.com
 
-[Phone User (Android Chrome)](https://github.com/manho30/quizizz_cheat#phone-user-android-chrome)
+[Phone User](https://github.com/manho30/quizizz_cheat#phone-user-android-chrome)
 
-[Pc User (Windows/Mac/Linux OS)(## Phone User)
+[Pc User](## Phone User)
 
 
 ## Phone User
@@ -27,7 +27,7 @@ javascript: (() => {
 
 - Type the code below and execute it. 
 ![img](https://raw.githubusercontent.com/manho30/quizizz_cheat/main/assets/figure4.jpg)
-```JavaScript
+```javascript
 (() => { 
 try{
     fetch("https://raw.githubusercontent.com/manho30/quizizz_cheat/main/quizizz.js")
@@ -42,7 +42,7 @@ try{
 You can now close the console. Now the good answer should be display in the question.
 
 
-## Pc User (Windows/Mac/Linux Os)
+## Pc User
 
 - Right click and go choose inspect (Ctrl + Shift + I)
 ![img](https://raw.githubusercontent.com/manho30/quizizz_cheat/main/assets/figure5.jpg)
