@@ -2,7 +2,7 @@ Make sure you have logged in into quizizz.com
 
 [Phone User](https://github.com/manho30/quizizz_cheat#phone-user-android-chrome)
 
-[Pc User](## Phone User)
+[Pc User](#phone-user)
 
 
 ## Phone User
