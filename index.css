@@ -53,7 +53,8 @@ p.about {
         text-decoration: none;
 } 
 
-p.dui_ni_shuo, p.lion {
+p.dui_ni_shuo, p.lion, 
+p.quizizz-hack {
         border: 2px solid black;
         border-radius: 8px;
         padding: 5px;
