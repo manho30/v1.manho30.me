@@ -30,5 +30,17 @@
         <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
         <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
         <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $.goup({
+                    trigger: 100,
+                    bottomOffset: 52,
+                    locationOffset: 25,
+                    titleAsText: true
+                });
+            });
+        </script>
     </body>
 </html> 
