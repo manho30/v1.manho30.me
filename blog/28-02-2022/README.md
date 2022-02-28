@@ -1,8 +1,8 @@
 Make sure you have logged in into quizizz.com
 
-[Phone User](https://github.com/manho30/quizizz_cheat#phone-user-android-chrome)
+[Phone User](#phone-user)
 
-[Pc User](#phone-user)
+[Pc User](#pc-user)
 
 
 ## Phone User
