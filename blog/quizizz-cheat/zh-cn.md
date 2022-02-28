@@ -42,7 +42,7 @@ try{
 现在你可以把控制面板给关了，答案会显示出来。
 
 
-## Pc User
+## 电脑用户
 
 - 鼠标左键，点选`inspect` (Ctrl + Shift + I)
 ![img](https://raw.githubusercontent.com/manho30/quizizz_cheat/main/assets/figure5.jpg)
