@@ -2,10 +2,10 @@ Make sure you have logged in into quizizz.com
 
 [Phone User (Android Chrome)](https://github.com/manho30/quizizz_cheat#phone-user-android-chrome)
 
-[Pc User (Windows/Mac/Linux OS)(#Phone User (Android Chrome))
+[Pc User (Windows/Mac/Linux OS)(#Phone User)
 
 
-## Phone User (Android Chrome)
+## Phone User
 - Open up the console panel with code the code below to search bar.
 ![img](https://raw.githubusercontent.com/manho30/quizizz_cheat/main/assets/figure1.jpg)
 ``` javascript
