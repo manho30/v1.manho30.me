@@ -63,3 +63,7 @@ try{
 ```
 
 You can now close the console. Now the good answer should be display in the question. 
+
+
+## Access this document with offline
+This document is Progressive Web Apps (PWA) based and serviceWorker was added, offline access was possible
