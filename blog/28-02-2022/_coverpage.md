@@ -1,9 +1,10 @@
-# Quizizz Hack
+# docsify <small>3.5</small>
 
-- Powerful for done your assignment
-- Instructional Documentation
-* © 2020 Man Ho All right reserved
+> A magical documentation site generator.
 
-[GitHub](https://github.com/manho30)
-[Port Folio](https://manho30.github.io)
-[Get Started](#quick-start)
+- Simple and lightweight (~21kB gzipped)
+- No statically built html files
+- Multiple themes
+
+[GitHub](https://github.com/docsifyjs/docsify/)
+[Get Started](#docsify)
