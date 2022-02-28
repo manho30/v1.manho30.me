@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta charset="UTF-8">
         <meta name="description" content="Quizizz Hack documentation\n© 2022 Man Ho all right reserved">
-        <meta name="keyords" contect="quizizz, quizizz hack, quizizz answer, quizizz auto," 
+        <meta name="keyords" contect="quizizz, quizizz hack, quizizz answer, quizizz auto">
+        <link rel="icon" type="image/x-icon" href="https://manho30.github.io/manho.ico">
+        <meta name="author" content="Man Ho">
         <title> Quizizz Hack </title>
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
     </head>
@@ -25,7 +27,7 @@
                     language: "english"
                 }, 
                 footer: {
-                    copy: '<span id="sitetime"></span> <br/> <span>&copy;</span>',
+                    copy: '<span>&copy;</span>',
                     auth: '<strong><a href="https://github.com/manho30" target="_blank">Man Ho</a></strong> all right reserved' , 
                     pre: '<hr/>',
                     style: 'font-size: 18px; text-align: center;',
@@ -54,36 +56,6 @@
                     titleAsText: true
                 });
             });
-        </script>
-        <!-- 添加网站运行时间统计 -->
-        <script language=javascript>
-            function siteTime() {
-            window.setTimeout("siteTime()", 1000);
-            var seconds = 1000;
-            var minutes = seconds * 60;
-            var hours = minutes * 60;
-            var days = hours * 24;
-            var years = days * 365;
-            var today = new Date();
-            var todayYear = today.getFullYear();
-            var todayMonth = today.getMonth() + 1;
-            var todayDate = today.getDate();
-            var todayHour = today.getHours();
-            var todayMinute = today.getMinutes();
-            var todaySecond = today.getSeconds();
-            /* 建站时间 */
-            var t1 = Date.UTC(2022, 01, 19, 00, 00, 00); 
-            var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
-            var diff = t2 - t1;
-            var diffYears = Math.floor(diff / years);
-            var diffDays = Math.floor((diff / days) - diffYears * 365);
-            var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
-            var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
-            var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-            document.getElementById("sitetime").innerHTML = " Website has running safely " + diffYears + " year " + diffDays + " day " + diffHours + " hour " + diffMinutes + " min " + diffSeconds + " seconds ";
-            }
-            siteTime();
-            + 
         </script>
     </body>
 </html>
