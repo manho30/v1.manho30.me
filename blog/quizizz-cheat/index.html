@@ -22,6 +22,11 @@
                 }, 
             }
         </script>
+        <script>
+            if (typeof navigator.serviceWorker !== 'undefined') {
+                navigator.serviceWorker.register('sw.js')
+            }
+        </script>
         <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
         <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
         <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
