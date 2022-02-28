@@ -21,7 +21,8 @@
                     language: "english"
                 }, 
                 footer: {
-                    copy: '<span>&copy; <strong><a href="https://github.com/manho30" target="_blank">Man Ho</a></strong> all right reserved</span>',
+                    copy: '<span id="sitetime"></span> <br/> <span>&copy;</span>',
+                    auth: "<strong><a href="https://github.com/manho30" target="_blank">Man Ho</a></strong> all right reserved", 
                     pre: '<hr/>',
                     style: 'font-size: 18px; text-align: center;',
                 },
@@ -75,7 +76,7 @@
             var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
             var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
             var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-            document.getElementById("sitetime").innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+            document.getElementById("sitetime").innerHTML = " Website has running safely " + diffYears + " year " + diffDays + " day " + diffHours + " hour " + diffMinutes + " min " + diffSeconds + " seconds ";
             }
             siteTime();
             + 
