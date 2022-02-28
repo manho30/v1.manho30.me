@@ -1,10 +1,6 @@
-# docsify <small>3.5</small>
+# Quizizz Hack
 
-> A magical documentation site generator.
+- Powerful script show all the correct answers while using quizizz
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
-
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[GitHub](https://github.com/manho30/quizizz_cheat/)
+[Get Started](#phone-user)
