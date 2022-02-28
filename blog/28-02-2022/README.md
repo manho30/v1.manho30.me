@@ -1,10 +1,8 @@
-# Usage
-Make sure you are in quizizz.com
+Make sure you have logged in into quizizz.com
 
 [Phone User (Android Chrome)](https://github.com/manho30/quizizz_cheat#phone-user-android-chrome)
 
-[Pc User (Windows/Mac/Linux OS)](https://github.com/manho30/quizizz_cheat#pc-user-windowsmaclinux-os)
-
+[Pc User (Windows/Mac/Linux OS)(#Phone User (Android Chrome))
 
 
 ## Phone User (Android Chrome)
