@@ -1,17 +1,4 @@
 <script>
-const getLatestDate = async (ref) => {
-  const latestData = (await ref.limitToLast(1).once("value")).val();
-  const latestDate = Object.keys(latestData)[0];
-  const dates = [];
-  for (let i = -1; i < 13; i++) {
-    const newDate = new Date(latestDate);
-    newDate.setDate(newDate.getDate() - i);
-    dates.push(newDate.toISOString().split("T")[0]);
-  }
-
-  return dates;
-};
-
 const fetchVaxCSV = async () => {
   const baseUrl = "https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/vaccination";
   const req = await fetch(`${baseUrl}/vax_malaysia.csv`);
