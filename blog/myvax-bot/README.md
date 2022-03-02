@@ -1,5 +1,5 @@
 # My Vax Bot
-![img](/assets/vax_bot.png)
+![img](https://raw.githubusercontent.com/manho30/manho30.github.io/main/assets/vax_bot.png)
 
 A Telegram bot print out Malaysia 🇲🇾 
 - **vaccination data**
