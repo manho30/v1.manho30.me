@@ -1,5 +1,5 @@
 # My Vax Bot
-![](/assets/vax_bot.png)
+![img](/assets/vax_bot.png)
 
 A Telegram bot print out Malaysia 🇲🇾 
 - **vaccination data**
