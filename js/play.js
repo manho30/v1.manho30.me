@@ -2,4 +2,4 @@ function playMusic {
     document.getElementById("music").play();
 }
 
-document.body.addEventListener("click", playMusic)
+document.body.addEventListener("touchstart", playMusic)
