@@ -1,5 +1,3 @@
-function playMusic {
+document.body.addEventListener("touchstart", () => {
     document.getElementById("music").play();
-}
-
-document.body.addEventListener("touchstart", playMusic)
+})
