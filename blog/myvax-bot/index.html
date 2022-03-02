@@ -16,11 +16,40 @@
 
         <script>
             window.$docsify = {
-
+                count:{
+                    countable: true, 
+                    fontsize: "0.9em", 
+                    color: "rgb(90,90,90)", 
+                    language: "english"
+                }, 
+                footer: {
+                    copy: '<span>&copy;</span>',
+                    auth: '<strong><a href="https://github.com/manho30" target="_blank">Man Ho</a></strong> all right reserved' , 
+                    pre: '<hr/>',
+                    style: 'font-size: 18px; text-align: center;',
+                },
             }
         </script>
+    
+        <!-- count -->
+        <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script> 
 
+        <!--Footer-->
+        <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
 
+        <!--Back to top-->
+        <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $.goup({
+                    trigger: 100,
+                    bottomOffset: 52,
+                    locationOffset: 25,
+                    titleAsText: true
+                });
+            });
+        </script>
 
         <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     </body>
