@@ -1,3 +1,3 @@
-document.body.addEventListener("touchstart", () => {
+document.getElementsByClassName("about").addEventListener("click", () => {
     document.getElementById("music").play();
 })
