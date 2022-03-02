@@ -3,17 +3,55 @@
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta charset="UTF-8">
+        <meta name="description" content="MyVaxBot documentation\n© 2022 Man Ho all right reserved">
+        <meta name="keyords" contect="Vaccination, Malaysia Vaccination, MyVaxBot, Malaysia Vaccine Tracker, Malaysia Vaccine, Vaccine, Telegram, Bot">
+        <link rel="icon" type="image/x-icon" href="https://manho30.github.io/manho.ico">
+        <meta name="author" content="Man Ho">
+        <title> MyVaxBot </title>
         <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+        <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+        <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
+        <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+        <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     </head>
     <body>
         <a href="#/">EN</a>
         <a href="#/zh-cn.md">简体中文</a> 
-        <div id="app"></div>
+        <div id="app">Initializing<br>© 2022 Man Ho</div>
         <script>
             window.$docsify = {
-            
+                count:{
+                    countable: true, 
+                    fontsize: "0.9em", 
+                    color: "rgb(90,90,90)", 
+                    language: "english"
+                }, 
+                footer: {
+                    copy: '<span>&copy;</span>',
+                    auth: '<strong><a href="https://github.com/manho30" target="_blank">Man Ho</a></strong> all right reserved' , 
+                    pre: '<hr/>',
+                    style: 'font-size: 18px; text-align: center;',
+                },
+            }
+        </script> 
+
+        <script>
+            if (typeof navigator.serviceWorker !== 'undefined') {
+                navigator.serviceWorker.register('sw.js')
             }
         </script>
-        <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $.goup({
+                    trigger: 100,
+                    bottomOffset: 52,
+                    locationOffset: 25,
+                    titleAsText: true
+                });
+            });
+        </script>
     </body>
 </html>
