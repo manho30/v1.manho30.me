@@ -15,12 +15,12 @@ Powered by PHP
 All queries to the MyCovid API must be served over 
 HTTPS and need to be presented in this form: 
 
-`https://mycovidapi.herokuapp.com/api/METHOD_NAME`
+`https://mycovidapi.herokuapp.com/api/vax`
 
 Like this for example:
 
 ```url
-https://mycovidapi.herokuapp.com/cases
+https://mycovidapi.herokuapp.com/cases.php
 ```
 Supported `GET` POST HTTP methods by passing parameters in MyCovid API requests:
  - URL query string
