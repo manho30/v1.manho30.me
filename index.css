@@ -26,7 +26,7 @@ a.hyperlink {
         text-decoration: none;
 }  
 
-//animation 
+/*animation*/
 @keyframes typing {
     from { width: 0 }
     to { width: 286px }
