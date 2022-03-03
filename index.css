@@ -41,8 +41,8 @@ a.hyperlink {
     font-size: 1.6rem;
     white-space: nowrap;
     width: 0;
-    animation: typing 4s steps(75,end) 1s 1 normal both,
-               animated-cursor 600ms steps(17,end) infinite;
+    animation: typing 4s steps(15,end) 1s 1 normal both,
+               animated-cursor 600ms steps(15,end) infinite;
 }
 
 .vax_pic {
