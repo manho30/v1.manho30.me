@@ -41,7 +41,7 @@ a.hyperlink {
     font-size: 1.6rem;
     white-space: nowrap;
     width: 0;
-    animation: typing 4s steps(17,end) 1s 1 normal both,
+    animation: typing 4s steps(75,end) 1s 1 normal both,
                animated-cursor 600ms steps(17,end) infinite;
 }
 
