@@ -26,25 +26,6 @@ a.hyperlink {
         text-decoration: none;
 }  
 
-/*animation*/
-@keyframes typing {
-    from { width: 0 }
-    to { width: 286px }
-}
-@keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
-  to{border-right-color: transparent;}
-}
-.intro_text {
-    overflow: hidden;
-    border-right: .15em solid orange;
-    font-size: 1.6rem;
-    white-space: nowrap;
-    width: 0;
-    animation: typing 4s steps(15,end) 1s 1 normal both,
-               animated-cursor 600ms steps(15,end) infinite;
-}
-
 .vax_pic {
         display: block;
         margin-left: auto;
