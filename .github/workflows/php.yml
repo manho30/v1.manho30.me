@@ -1,9 +1,0 @@
-- name: Setup PHP 
-  id: setup-php
-  uses: shivammathur/setup-php@2.17.1
-  with:
-    php-version: "7.4" 
-
-
-- name: Print PHP version
-  run: echo ${{ steps.setup-php.outputs.php-version }}
