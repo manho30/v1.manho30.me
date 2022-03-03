@@ -11,19 +11,37 @@ formated data
 Powered by PHP
 
 ## Usage
+
+### Base Url 
+Providing 2 interfaces, non-interfering with each other. 
+Operate independently
+
+- `manho30.herokuapp.com/`
+
+
+- `mycovidapi.herokuapp.com/`
+
+All the [Supported Queries](#method) can be normal using 
+while making request to both of MyCovid Data API
+
 ### Making requests
 All queries to the MyCovid API must be served over 
-HTTPS and need to be presented in this form: 
+HTTPS and need to be presented in specific form. 
 
-`https://mycovidapi.herokuapp.com/api/vax`
+You can either choose to fetch like 
 
-Like this for example:
-
-```url
-https://mycovidapi.herokuapp.com/cases.php
 ```
-Supported `GET` POST HTTP methods by passing parameters in MyCovid API requests:
- - URL query string
+mycovidapi.herokuapp.com/api/<method>
+```
+
+OR 
+
+```
+mycovidapi.herokuapp.com/<method>.php
+```
+
+Supported `GET` HTTP methods by passing parameters in MyCovid API requests:
+ - URL query string 
 
 ## Method
 ### Cases
