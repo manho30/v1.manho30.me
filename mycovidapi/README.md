@@ -44,6 +44,16 @@ Supported `GET` HTTP methods by passing parameters in MyCovid API requests:
  - URL query string 
 
 ## Method
+Providing data from Malaysia MoH 
+- [Daily Confirmed Cases](#cases)
+- [Vaccination By State](#state)
+- [Vaccination Data](#vax)
+- [Death](#death)
+- [Clusters](#clusters)
+- [School Vaccination](#school)
+- [ICU](#icu)
+- [PKRC](#pkrc)
+- [Population in Malaysia and every state](#population)
 ### Cases
 
 Get the confirmed Covid-19 case(s) 
