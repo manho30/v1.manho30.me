@@ -26,16 +26,7 @@ a.hyperlink {
         text-decoration: none;
 }  
 
-.vax_pic {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width:80%;
-        max-height:80%;
-        height: auto;
-}
-
-.vax_text {
+.project {
         margin: auto;
         width: 70%;
         padding: 50px;
