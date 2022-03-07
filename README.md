@@ -1,2 +1,2 @@
 # manho30.github.io
-The repo of hosting my personal blog. 
+The repo for hosting my personal web. 
