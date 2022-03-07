@@ -6,9 +6,9 @@ Malaysia Covid-19 programs.
 
 Once deverloper sent a request, 
 the Web API will send back a json
-formated data
+formated data. 
 
-Powered by PHP
+
 
 ## Usage
 
@@ -22,7 +22,7 @@ Operate independently
 - `mycovidapi.herokuapp.com/`
 
 All the [Supported Queries](#method) can be normal using 
-while making request to both of MyCovid Data API
+while making request to both of MyCovid Data API. 
 
 ### Making requests
 All queries to the MyCovid API must be served over 
