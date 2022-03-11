@@ -46,6 +46,8 @@ a.hyperlink {
   transition: 0.3s;
 }
 
+.closebtn:hover {background: #bbb;}
+
 .closebtn:hover {
   color: black;
 }
