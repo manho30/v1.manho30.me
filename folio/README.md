@@ -31,3 +31,10 @@ The Unicode Standard has become a success and is implemented in HTML, XML, Java,
 The Unicode Consortium cooperates with the leading standards development organizations, like ISO, W3C, and ECMA.
 
 **Tip**: The first 128 characters of Unicode (which correspond one-to-one with ASCII) are encoded using a single octet with the same binary value as ASCII, making valid ASCII text valid UTF-8-encoded Unicode as well.
+
+
+## Relationship
+The difference between the two is the number of bits that they use to represent each character. EBCDIC uses 8 bits per character while the original ASCII standard only used 7, due to concerns that using 8 bits for characters that can be represented with 7 is much less efficient.
+
+
+ASCII has its equivalent in Unicode. The difference between ASCII and Unicode is that ASCII represents lowercase letters (a-z), uppercase letters (A-Z), digits (0-9) and symbols such as punctuation marks while Unicode represents letters of English, Arabic, Greek etc.
