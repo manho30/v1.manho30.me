@@ -1,40 +1,29 @@
 # Folio ASK
 
-## The ASCII Character Set
+## ASCII
 ASCII stands for the "American Standard 
 Code for Information Interchange".
-
-
 
 It was designed in the early 60's, as a standard 
 character set for computers and electronic devices.
 
-
-
 ASCII is a 7-bit character set containing 128 characters.
-
-
 
 It contains the numbers from 0-9, the upper and lower case 
 English letters from A to Z, and some special characters.
 
-
-
 The character sets used in modern computers, 
 in HTML, and on the Internet, are all based on ASCII.
 
-
-
 The following tables list the 128 ASCII characters
 and their equivalent number.
-
 
 
 ## EBCDIC
 
 EBCDIC, in full extended binary-coded decimal interchange code, data-encoding system, developed by IBM and used mostly on its computers, that uses a unique eight-bit binary code for each number and alphabetic character as well as punctuation marks and accented letters and nonalphabetic characters.
 
-## The Unicode Consortium
+## Unicode
 The Unicode Consortium develops the Unicode Standard. Their goal is to replace the existing character sets with its standard Unicode Transformation Format (UTF).
 
 The Unicode Standard has become a success and is implemented in HTML, XML, Java, JavaScript, E-mail, ASP, PHP, etc. The Unicode standard is also supported in many operating systems and all modern browsers.
