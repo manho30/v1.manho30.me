@@ -9,30 +9,37 @@
 
 <url>
   <loc>https://manho30.github.io/</loc>
-  <lastmod>2022-03-04T17:43:31+00:00</lastmod>
+  <lastmod>2022-04-28T01:13:25+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://manho30.github.io/blog/myvax-bot/</loc>
-  <lastmod>2022-03-04T17:43:31+00:00</lastmod>
+  <lastmod>2022-04-28T01:13:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://manho30.github.io/mycovidapi/</loc>
-  <lastmod>2022-03-04T17:43:31+00:00</lastmod>
+  <lastmod>2022-04-28T01:13:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://manho30.github.io/covidapi/</loc>
+  <lastmod>2022-04-04T12:05:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://manho30.github.io/lion/</loc>
-  <lastmod>2022-03-04T17:43:31+00:00</lastmod>
+  <lastmod>2022-04-28T01:13:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://manho30.github.io/blog/quizizz-cheat/</loc>
-  <lastmod>2022-03-04T17:43:31+00:00</lastmod>
+  <lastmod>2022-04-28T01:13:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
-
-
+<url>
+  <loc>https://manho30.github.io/2048/</loc>
+  <lastmod>2022-04-28T01:13:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>
